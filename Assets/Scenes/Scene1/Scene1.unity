@@ -677,6 +677,24 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3742915472406752638, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1687237175}
+    - targetCorrespondingSourceObject: {fileID: 3049126012283307370, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 877441952}
+    - targetCorrespondingSourceObject: {fileID: 3049126012283307370, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 877441951}
+    - targetCorrespondingSourceObject: {fileID: 8737958792585113332, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105230708}
+    - targetCorrespondingSourceObject: {fileID: 8737958792585113332, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105230709}
+    - targetCorrespondingSourceObject: {fileID: 1362944200435505823, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1143906500}
+    - targetCorrespondingSourceObject: {fileID: 1362944200435505823, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1143906499}
     - targetCorrespondingSourceObject: {fileID: 6280994714500272115, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
       insertIndex: -1
       addedObject: {fileID: 241211281}
@@ -924,8 +942,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1445,6 +1463,61 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2013474440}
   m_SourcePrefab: {fileID: 100100000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+--- !u!1 &877441947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3049126012283307370, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+  m_PrefabInstance: {fileID: 207945379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &877441951
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877441947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.041898727, y: 0.2877623, z: 0.1702422}
+  m_Center: {x: 6.835749e-10, y: 0.0764225, z: 0.0043058265}
+--- !u!114 &877441952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877441947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744f88bff351e66e985df2fe222e008d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  oneshot: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 877441947}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactableAction: Prendi
 --- !u!1 &949990963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1775,49 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.74412364, y: 1.7444923, z: 0.53798205}
   m_Center: {x: 0, y: 0.0017146764, z: 0.043622788}
+--- !u!1 &1143906495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1362944200435505823, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+  m_PrefabInstance: {fileID: 207945379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1143906499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143906495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.089830756, y: 0.13796125, z: 0.086113915}
+  m_Center: {x: 0.2438935, y: 0.07462932, z: 0.02919288}
+--- !u!114 &1143906500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143906495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744f88bff351e66e985df2fe222e008d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  oneshot: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactableAction: prendi
 --- !u!1 &1160234425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,7 +2467,7 @@ MonoBehaviour:
           m_StringArgument: Open
           m_BoolArgument: 1
         m_CallState: 2
-  interactableAction: Interact
+  interactableAction: Apri
 --- !u!95 &1687237175
 Animator:
   serializedVersion: 7
@@ -2548,6 +2664,49 @@ MonoBehaviour:
   rayOrigin: {fileID: 764688923}
   interactablePrompt: {fileID: 1509059718}
   interactableText: {fileID: 1428808590}
+--- !u!1 &2105230704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737958792585113332, guid: ea0e4992d9c39ec479b86d32188b5826, type: 3}
+  m_PrefabInstance: {fileID: 207945379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105230708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105230704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744f88bff351e66e985df2fe222e008d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  oneshot: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactableAction: Indossa
+--- !u!65 &2105230709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105230704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16169992, y: 0.23621157, z: 0.06403341}
+  m_Center: {x: 0.03166729, y: 0.05484869, z: 0.005232115}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
