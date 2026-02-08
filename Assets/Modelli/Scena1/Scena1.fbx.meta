@@ -5,6 +5,66 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armad
+    second: {fileID: 2100000, guid: 01dfd0bb63cfce519901c4a67f3fa13a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ass
+    second: {fileID: 2100000, guid: 91776b2a5c288333498676a75ed62f89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cancello
+    second: {fileID: 2100000, guid: fa9d507e21d2998ab8679482d2c22a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: d73b396a9d60cbab4926040b14d59f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Copex
+    second: {fileID: 2100000, guid: d7b74f43a2cb87f71a4cc5bed3dd47ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: b19f99ba04fce8769bf64372b9fb7fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 3cf3e1ed56feb527498def995e02d776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lenti
+    second: {fileID: 2100000, guid: ea137025ebfcce0bca64e29d67206823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro
+    second: {fileID: 2100000, guid: 9b60db8dfaf96b30bb9805a6356661ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 612e79ef07a09740881d69fa57851d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Papaer
+    second: {fileID: 2100000, guid: a23e2840c19629d75a9150c1b6e7c721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 4e8e83e6a39eaf731bcc30a81fa342f8, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: BandieraCopex
