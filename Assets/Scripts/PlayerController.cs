@@ -31,8 +31,9 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         
         // I kept your 1f distance, but you might want to increase this slightly (e.g., 2f or 3f)
-        if (Physics.Raycast(ray, out hit, 1f))
+        if (Physics.Raycast(ray, out hit, 2f, ~LayerMask.GetMask("Ignore Raycast", "Player")))
         {
+            Debug.Log(hit.collider.gameObject.name);
             Interactable interactable = hit.collider.GetComponent<Interactable>();
             
             if (interactable != null)

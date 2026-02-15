@@ -3,7 +3,12 @@ guid: 7dbe939c6cc180f43bb113243a7bcc6d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EsorcistaBianco
+    second: {fileID: 2100000, guid: c68cb6bc087b5c44daf60ae815706b7f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
