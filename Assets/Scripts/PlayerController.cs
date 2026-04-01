@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private PlayerInput _playerInput;
     private Interactable currentInteractable;
     private Camera mainCamera;
+    private Canvas canvas;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Interact"].performed += ctx => Interact();
 
         mainCamera = Camera.main;
+        canvas = interactablePrompt.GetComponentInParent<Canvas>();
 
         interactablePrompt.gameObject.SetActive(false);
     }
@@ -47,8 +49,14 @@ public class PlayerController : MonoBehaviour
                 interactableText.text = interactable.interactableAction;
 
                 Vector3 worldCenter = hit.collider.bounds.center;
-                Vector3 screenPos = mainCamera.WorldToScreenPoint(worldCenter);
-                interactablePrompt.position = screenPos;
+                Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(mainCamera, worldCenter);
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                    canvas.transform as RectTransform,
+                    screenPos,
+                    canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera,
+                    out Vector2 localPos
+                );
+                interactablePrompt.anchoredPosition = localPos;;
             }
             else
             {
